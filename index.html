@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Text to Audio Recorder Tool">
+  <meta name="author" content="Shift Media">
+  <title>API | Text to Audio Recorder Tool</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="heading-shift">
+      <h1><span class="highlight">Audio Recorder API Text to Speech </span>| Web Design</h1>
+    </div>
+  </header>
+  <div class="container-shift">
+    <div class="container">
+      <div class="input-container">
+        <label for="input-text">Enter text to convert to audio:</label>
+        <textarea id="input-text" rows="4" cols="50" placeholder="Type your text here..."></textarea>
+      </div>
+	  <div class="form-container">
+		<div class="row">
+		  <label class="label">Select Voice:</label>
+		  <div class="outer">
+		  <select name="name" id="voice-select"></select>
+		  </div>
+		</div>
+		<div class="row">
+		  <label class="label">Pitch:</label>
+		  <div class="outer">
+		  <input class="input" type="number" value="0" id="pitch" />
+		  </div>
+		</div>
+		<div class="row">
+		  <label class="label">Rate:</label>
+		  <div class="outer">
+		  <input class="input" type="number" value="1" id="rate" />
+		  </div>
+		</div>
+      </div>
+      <div class="button-container">
+        <button id="speak-btn">Speak</button>
+        <button id="pause-btn" class="hide" disabled>Pause Speak</button>
+        <button id="resume-btn" class="hide" disabled>Resume Speak</button>
+        <button id="record-button">Record Audio</button>
+        <button id="stop-btn" class="" disabled>Stop</button>
+      </div>
+      <div class="output-container">
+        <label for="audio-player">Play back your recorded audio:</label>
+        <audio id="audio-player" controls></audio>
+		<div id="audio-container"></div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer-shift">
+    <p><strong>Created By</strong>:
+      <a target="_blank" href="https://github.com/cdmens">&copy; 2024 DivineDevStudios.
+      </a><strong>All Rights Reserved</strong>
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
