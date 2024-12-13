@@ -1,0 +1,244 @@
+.container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  min-height: 200px;
+  font-size: 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.form-container .row{
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.form-container .row label{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.form-container .row .outer{
+  height: 40px;
+  display: flex;
+  margin: 5px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid #999;
+}
+
+.form-container .row select{
+  height: 100%;
+  font-size: 14px;
+  background: none;
+}
+.form-container .row select::-webkit-scrollbar{
+  width: 8px;
+}
+.form-container .row select::-webkit-scrollbar-track{
+  background: #fff;
+}
+.form-container .row select::-webkit-scrollbar-thumb{
+  background: #888;
+  border-radius: 8px;
+  border-right: 2px solid #ffffff;
+}
+
+.form-container .row input{
+  height: 100%;
+  font-size: 14px;
+  background: none;
+}
+.form-container .row input::-webkit-scrollbar{
+  width: 8px;
+}
+.form-container .row input::-webkit-scrollbar-track{
+  background: #fff;
+}
+.form-container .row input::-webkit-scrollbar-thumb{
+  background: #888;
+  border-radius: 8px;
+  border-right: 2px solid #ffffff;
+}
+
+.hide {
+  display: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background-image: linear-gradient(90deg, #0099ff, #ff14bd, #f44336);
+  color: #fff;
+  border: 2px solid #00fbff;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:disabled {
+  background-image: linear-gradient(90deg, #0099ff, #ff14bd, #f44336);
+  cursor: not-allowed;
+}
+
+
+button:hover {
+  background-color: #d32f2f;
+}
+
+.output-container {
+  text-align: center;
+}
+
+audio {
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Responsive Coding Created By: Shift Media Solutions| SMS️ */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(
+      20deg,
+      rgba(207, 207, 207, 0.04) 0%,
+      rgba(207, 207, 207, 0.04) 55%,
+      rgba(67, 67, 67, 0.04) 55%,
+      rgba(67, 67, 67, 0.04) 100%
+    ),
+    linear-gradient(
+      65deg,
+      rgba(220, 220, 220, 0.04) 0%,
+      rgba(220, 220, 220, 0.04) 72%,
+      rgba(29, 29, 29, 0.04) 72%,
+      rgba(29, 29, 29, 0.04) 100%
+    ),
+    linear-gradient(
+      307deg,
+      rgba(135, 135, 135, 0.04) 0%,
+      rgba(135, 135, 135, 0.04) 62%,
+      rgba(226, 226, 226, 0.04) 62%,
+      rgba(226, 226, 226, 0.04) 100%
+    ),
+    linear-gradient(
+      289deg,
+      rgba(43, 43, 43, 0.04) 0%,
+      rgba(43, 43, 43, 0.04) 44%,
+      rgba(219, 219, 219, 0.04) 44%,
+      rgba(219, 219, 219, 0.04) 100%
+    ),
+    linear-gradient(90deg, rgb(172, 156, 39), rgb(94, 33, 17));
+}
+
+/* Header Shift Media Solutions| SMS */
+
+.heading-shift {
+  margin: 0;
+  padding: 10px 0;
+  color: #f8ede0;
+  font-size: 20px;
+  text-align: center;
+  background: #ff0000;
+  border-bottom: 3px solid #00fbff;
+  opacity: 1;
+  user-select: none;
+}
+
+.heading-shift .highlight {
+  color: #aaffff;
+}
+
+.container-shift {
+  margin: 40px auto;
+  padding: 20px;
+  width: 90%;
+  text-align: left;
+  background-image: linear-gradient(
+    65deg,
+    #ff3030,
+    #ff7230,
+    #ffb330,
+    #fff530,
+    #c8ff30,
+    #87ff30
+  );
+  border-radius: 10px;
+  border: 2px solid #00fbff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* footer Shift Media Solutions| SMS */
+
+.footer-shift {
+  bottom: 0;
+  padding: 10px;
+  text-align: center;
+  border-top: 3px solid #00fbff;
+  background: #000099;
+  opacity: 0.9;
+  user-select: none;
+}
+
+.footer-shift p {
+  color: #c2ced2;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.footer-shift a {
+  color: #eec87c;
+  text-decoration: none;
+}
+
+.footer-shift a:hover {
+  color: #3cbcfc;
+}
+
+/* Media Queries Shift Media Solutions| SMS */
+
+@media only screen and (max-width: 1080px) {
+  .body {
+    width: 100%;
+    overflow: auto;
+  }
+}
